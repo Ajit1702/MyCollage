@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>blog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="img/logo1.png"></a>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certificate & Online Programs for 2021</h1>
+        </section>
+
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="img/certificate.jpg">
+                    <h2>Our Certificate & Online Programs for 2021</h2>
+                    <p>A blog (a shortened version of “weblog”) is an online journal or informational website displaying 
+                        information in reverse chronological order, with the latest posts appearing first, at the top.
+                        It is a platform where a writer or a group of writers share their views on an individual subject.
+                    </p><br>
+                    <p>There are many reasons to start a blog for personal use and only a handful of strong
+                        ones for business blogging. Blogging for business, projects, or anything else that might
+                        bring you money has a very straightforward purpose – to rank your website higher in Google SERPs,
+                        a.k.a. increase your visibility.When you use your niche knowledge for creating informative and engaging posts,
+                        it builds trust with your audience. Great blogging makes your business look more credible,
+                        which is especially important if your brand is still young and fairly unknown. It ensures presence
+                        online and niche authority at the same time.</p><br>
+                    <p>There are many reasons to start a blog for personal use and only a handful of strong
+                        ones for business blogging. Blogging for business, projects, or anything else that might
+                        bring you money has a very straightforward purpose – to rank your website higher in Google SERPs,
+                        a.k.a. increase your visibility.</p><br>
+                    <p>A blog (a shortened version of “weblog”) is an online journal or informational website displaying 
+                        information in reverse chronological order, with the latest posts appearing first, at the top.
+                        It is a platform where a writer or a group of writers share their views on an individual subject.
+                    </p>
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Your Name">
+                            <input type="email" placeholder="Your Email">
+                            <textarea placeholder="Your comment" rows="5"></textarea>
+                            <button type="submit" class="hero-button red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>20</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Machin Learning</span>
+                        <span>12</span>
+                    </div>
+                    <div>
+                        <span>Computer Science</span>
+                        <span>18</span>
+                    </div>
+                    <div>
+                        <span>AutoCAD</span>
+                        <span>45</span>
+                    </div>
+                    <div>
+                        <span>Journalism </span>
+                        <span>22</span>
+                    </div>
+                    <div>
+                        <span>Commerce</span>
+                        <span>30</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="footer">
+            <h4>About Us</h4> 
+            <p>In India, HSC/Intermediate is known as 12th class (also known as +2) exam which is
+                conducted at<br> the state level by the state boards of education</p>
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <p> Made with  <i class="fa fa-heart-o"></i> By Ajit Kumar Mandal</p>
+            </div>
+        </section>
+
+        <script>
+            var nav = document.getElementById("navlinks");
+            function showMenu() {
+                nav.style.right = "0";
+            }
+            function hideMenu() {
+                nav.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
